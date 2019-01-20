@@ -1,1 +1,54 @@
-<h1>Projects front page</h1>
+<section class="container">
+  <nav class="main-nav">
+    <ul class="left">
+      <li><strong>Ticketing</strong></li>
+      <li><a href="/projects">Projects</a></li>
+      <li><a href="/tickets">Tickets</a></li>
+      <li><a href="/tags">Tags</a></li>
+    </ul>
+
+    <ul class="right">
+      <li>
+        <a href="/login">Login</a> or <a href="/signup">Signup</a>
+      </li>
+    </ul>
+  </nav>
+
+  <p id="notice"></p>
+  <p id="alert"></p>
+
+  <h1>Projects</h1>
+
+
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th class="number">Open Tickets</th>
+        <th class="number">Total Tickets</th>
+      </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+          <td>
+            <strong><a href="/projects/17">ticket tracker</a></strong><br>
+            rails app
+          </td>
+          <td class="number">1</td>
+          <td class="number">1</td>
+        </tr>
+        <tr>
+          <td>
+            <strong><a href="/projects/18">project2</a></strong><br>
+            description
+          </td>
+          <td class="number">0</td>
+          <td class="number">0</td>
+        </tr>
+    </tbody>
+  </table>
+
+  <br>
+  <a class="btn" href="/projects/new">New Project</a>
+</section>
